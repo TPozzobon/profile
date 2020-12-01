@@ -1,0 +1,93 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #B5C5DE;
+  font-family: 'Open Sans', sans-serif;
+  color: #212B3B;
+}
+
+h1, h2, h3 {
+  color: #485364;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+h2 {
+ font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  color: #207DC0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #207DC0;
+}
+
+p {
+  padding: 20px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.card {
+  background-color: #D5D9DC;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px grey;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 30px 0;
+  font-weight: lighter;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #265499;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #265499;
+}
+
+.list-inline {
+  list-style: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.list-inline li{
+  padding: 0 30px;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
